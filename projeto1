@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <windows.h>
+int main()
+{
+ setlocale(LC_ALL,'Portuguese');
+ setConsoleTitle("Cronometro");
+ 
+ int sec=0, min=0, hr=0;
+ 
+ int i=0;
+ do{
+ system("clr");
+ }
+}
